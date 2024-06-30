@@ -1,37 +1,40 @@
-React To-Do Application
+# React To-Do Application
 This is a simple To-Do application built using React and Material-UI. The application allows users to add, view, edit, and delete tasks, and provides an option to download the to-do list in PDF format. The application supports both light and dark themes.
 
-Features
-Add a new task
-View a list of tasks
-Edit an existing task
-Delete a task
-Download the to-do list in PDF format
-Toggle between light and dark themes
-Technologies Used
-React
-Material-UI
-Redux
-Installation
-Clone the repository:
+## Features
+- Add a new task
+- View a list of tasks
+- Edit an existing task
+- Delete a task
+- Download the to-do list in PDF format
+- Toggle between light and dark themes
 
-bash
-Copy code
+## Technologies Used
+- React
+- Material-UI
+- Redux
+
+## Installation
+1.	Clone the repository:
+
+```
 git clone https://github.com/yourusername/my-todo-app.git
+```
+
+```
 cd my-todo-app
-Install dependencies:
-
-bash
-Copy code
+```
+2.	Install dependencies:
+```
 npm install
-Start the development server:
-
-bash
-Copy code
+```
+3.	Start the development server:
+```
 npm start
-Project Structure
-css
-Copy code
+```
+
+## Project Structure
+```
 src/
   components/
     ├── TaskInput.js
@@ -45,11 +48,11 @@ src/
   ├── theme.js
   ├── App.js
   ├── index.js
-Usage
-Open your browser and navigate to http://localhost:3000 to view the application.
-Use the input field to add new tasks.
-Edit or delete tasks using the respective buttons.
-Toggle between light and dark themes using the theme switcher.
-Download the to-do list as a PDF using the download button.
-Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any changes or enhancements.
+
+```
+## Usage
+1.	Open your browser and navigate to http://localhost:3000 to view the application.
+2.	Use the input field to add new tasks.
+3.	Edit or delete tasks using the respective buttons.
+4.	Toggle between light and dark themes using the theme switcher.
+5.	Download the to-do list as a PDF using the download button.
